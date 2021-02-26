@@ -34,7 +34,7 @@ jobs:
     - name: Run setup-spark 3.0.1
       uses: ./
       with:
-        spark-version: 3.0.1
+        spark-version: 3.0.2
 
     - name: Check Spark
       run: spark-submit --version
